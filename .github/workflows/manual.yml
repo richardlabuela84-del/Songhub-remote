@@ -1,4 +1,4 @@
-name: Deploy SongHub 50boyz
+name: Deploy SongHub Remote
 
 on:
   workflow_dispatch:
