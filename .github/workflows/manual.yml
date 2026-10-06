@@ -1,4 +1,4 @@
-name: 50 Boyz
+name: Deploy SongHub 50boyz
 
 on:
   workflow_dispatch:
