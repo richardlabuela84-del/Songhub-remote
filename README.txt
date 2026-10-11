@@ -1,21 +1,5 @@
-SongHub Remote — iPhone PWA prototype
+SongHub YouTube + Karaoke + 3-second crossfade upgrade. Replace your repository's root index.html with this version and commit to main. Keep manifest.json at the site root. Netlify should redeploy automatically.
 
-This is a functional UI prototype, not an official iOS build.
-Features:
-- SongHub IP + port connection
-- WebSocket connection attempt
-- Demo mode
-- Song search/list
-- Queue management
-- Play/pause/previous/next controls
-- Lyrics screen
+Features: YouTube search opens official YouTube results; paste a YouTube URL/video ID to use supported embedded playback; local audio player with 3-second fade-in on play and 3-second fade-out/fade-in on automatic next song; synchronized local LRC lyrics.
 
-The exact production protocol still needs to be verified against the SongHub server.
-The prototype currently sends JSON WebSocket messages such as:
-{"type":"queue_add","songId":"01"}
-{"type":"queue_remove","index":0}
-{"type":"play_pause"}
-{"type":"previous"}
-{"type":"next"}
-
-To use on iPhone, host this folder on HTTPS and open it in Safari, then Share > Add to Home Screen.
+Limitations: local files are not permanently saved after closing the page. Some YouTube videos do not allow embedding. YouTube search results open on YouTube; this version does not use a YouTube Data API key.

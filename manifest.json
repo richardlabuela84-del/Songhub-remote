@@ -1,9 +1,8 @@
 {
-  "name": "SongHub Remote",
-  "short_name": "SongHub Remote",
+  "name": "SongHub Music & Karaoke",
+  "short_name": "SongHub",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#090909",
-  "theme_color": "#090909",
-  "icons": []
+  "background_color": "#0b0b0f",
+  "theme_color": "#101014"
 }
